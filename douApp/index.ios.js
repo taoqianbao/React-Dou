@@ -16,7 +16,7 @@ var {
 
 // StatusBarIOS.setHidden(true);
 var douApp = React.createClass({
-    
+
   getInitialState: function(){
     return {
       selectedTab: '图书'
@@ -67,4 +67,3 @@ var douApp = React.createClass({
 });
 
 AppRegistry.registerComponent('douApp', () => douApp);
-
